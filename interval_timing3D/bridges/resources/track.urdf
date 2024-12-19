@@ -1,0 +1,57 @@
+<?xml version="1.0"?> 
+<robot name="simpleplane">
+    <!-- Colors --> 
+    <material name="grey"> 
+        <color rgba="0.5 0.5 0.5 1"/>
+    </material>
+    <material name="transparent"> 
+        <color rgba="0.5 0.5 0.5 0"/>
+    </material>
+    <material name="black"> 
+        <color rgba="0 0 0 1"/>
+    </material>
+
+    <!-- Plane -->
+
+    <link name="bridge">
+        <visual> 
+            <origin rpy="0 0 0" xyz="17.25 0 0"/>
+            <geometry>
+                <box size="34.5 8 0.01"/>
+            </geometry>
+            <material name="grey"/>
+        </visual>
+        <visual> 
+            <origin rpy="0 0 0" xyz="38.5 0 0"/>
+            <geometry> 
+                <box size="8 39 0.01"/>
+            </geometry>
+            <material name="grey"/>
+        </visual>
+
+    </link> 
+
+    <link name = "bridge2">
+        <visual> 
+            <origin rpy="0 0 0" xyz="-17.25 0 0"/>
+            <geometry> 
+                <box size="34.5 8 0.01"/>
+            </geometry>
+            <material name="transparent"/>
+        </visual>
+        <visual> 
+            <origin rpy="0 0 0" xyz="-38.5 0 0"/>
+            <geometry> 
+                <box size="8 63 0.01"/>
+            </geometry>
+            <material name="transparent"/>
+        </visual>
+    </link>
+    <joint name="base_to_world" type="fixed">
+        <parent link="bridge"/>
+        <child link="bridge2"/>
+        <origin xyz="0 0 0" rpy="0 0 0"/> <!-- Initial joint position -->
+    </joint>
+
+
+</robot>

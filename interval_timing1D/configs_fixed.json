@@ -1,0 +1,11 @@
+{
+  "env_seed_offset": 0,
+  "env_height": 1,
+  "env_width": 1,
+  "env_stimuli": [30, 33, 36, 40, 44, 48],
+  "env_timings_fixation": 2,
+  "env_timings_delay": 8,
+  "env_timings_decision": 2,
+  "env_reward_correct": 1.0,
+  "env_reward_incorrect": -1.0
+}

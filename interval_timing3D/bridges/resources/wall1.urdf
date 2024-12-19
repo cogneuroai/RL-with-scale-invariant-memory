@@ -1,0 +1,135 @@
+<?xml version="1.0"?> 
+<robot name="simpleplane">
+    <!-- Colors --> 
+    <material name="grey"> 
+        <color rgba="0.2 0.2 0.2 1"/>
+    </material>
+
+    <!-- Plane -->
+    <link name="walls">
+
+        <!-- <visual>
+            <origin rpy="0 0 0" xyz="0 -4 0"/>
+            <geometry>
+                <box size="69 0.01 6"/>
+            </geometry>
+            <material name="grey"/>
+        </visual>
+        <visual>
+            <origin rpy="0 0 0" xyz="0 4 0"/>
+            <geometry>
+                <box size="69 0.01 6"/>
+            </geometry>
+            <material name="grey"/>
+        </visual> -->
+
+        <!-- <visual>
+            <origin rpy="0 0 0" xyz="42.5 0 0"/>
+            <geometry> 
+                <box size="0.01 63 6"/>
+            </geometry>
+            <material name="grey"/>
+        </visual> -->
+        <visual> 
+            <origin rpy="0 0 0" xyz="34.5 16 0"/>
+            <geometry> 
+                <box size="0.01 24 6"/>
+            </geometry>
+            <material name="grey"/>
+        </visual>
+
+        <visual> 
+            <origin rpy="0 0 0" xyz="34.5 -16 0"/>
+            <geometry> 
+                <box size="0.01 24 6"/>
+            </geometry>
+            <material name="grey"/>
+        </visual>
+
+
+        <visual> 
+            <origin rpy="0 0 0" xyz="-42.5 0 0"/>
+            <geometry> 
+                <box size="0.01 63 6"/>
+            </geometry>
+            <material name="grey"/>
+        </visual>
+        <visual> 
+            <origin rpy="0 0 0" xyz="-34.5 16 0"/>
+            <geometry> 
+                <box size="0.01 24 6"/>
+            </geometry>
+            <material name="grey"/>
+        </visual>
+        <visual> 
+            <origin rpy="0 0 0" xyz="-34.5 -16 0"/>
+            <geometry> 
+                <box size="0.01 24 6"/>
+            </geometry>
+            <material name="grey"/>
+        </visual>
+
+        <!-- slant walls -->
+        <visual> 
+            <origin rpy="0 0 -15" xyz="30.242 -31.642 0"/>
+            <geometry> 
+                <box size="11.25 0.01 6"/>
+            </geometry>
+            <material name="grey"/>
+        </visual>
+        <visual>
+            <origin rpy="0 0 -15" xyz="-30.242 31.642 0"/>
+            <geometry> 
+                <box size="11.25 0.01 6"/>
+            </geometry>
+            <material name="grey"/>
+        </visual>
+
+        <visual> 
+            <origin rpy="0 0 15" xyz="-30.242 -31.642 0"/>
+            <geometry> 
+                <box size="11.25 0.01 6"/>
+            </geometry>
+            <material name="grey"/>
+        </visual>
+        <visual>
+            <origin rpy="0 0 15" xyz="30.242 31.642 0"/>
+            <geometry> 
+                <box size="11.25 0.01 6"/>
+            </geometry>
+            <material name="grey"/>
+        </visual>
+
+        <visual> 
+            <origin rpy="0 0 15" xyz="35.684 37.316 0"/>
+            <geometry> 
+                <box size="18.25 0.01 6"/>
+            </geometry>
+            <material name="grey"/>
+        </visual>
+        <visual> 
+            <origin rpy="0 0 15" xyz="-35.684 -37.316 0"/>
+            <geometry> 
+                <box size="18.25 0.01 6"/>
+            </geometry>
+            <material name="grey"/>
+        </visual>
+
+        <visual> 
+            <origin rpy="0 0 -15" xyz="35.684 -37.316 0"/>
+            <geometry> 
+                <box size="18.25 0.01 6"/>
+            </geometry>
+            <material name="grey"/>
+        </visual>
+        <visual> 
+            <origin rpy="0 0 -15" xyz="-35.684 37.316 0"/>
+            <geometry> 
+                <box size="18.25 0.01 6"/>
+            </geometry>
+            <material name="grey"/>
+        </visual>
+
+
+    </link> 
+</robot>

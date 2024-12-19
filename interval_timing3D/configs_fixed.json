@@ -1,0 +1,18 @@
+{
+ "wandb_project": "project_name",
+ "wandb_group": "exp1",
+ "wandb_entity": "entity_name",
+ "wandb_mode": "disabled",
+ "device": "cpu",
+ "log_test_info_intervals": [],
+ "log_test_info_episodes": 1000,
+ "env_height": 60,
+ "env_width": 60,
+ "env_dt": 100,
+ "env_reward_steps": 0,
+ "env_reward_abort": -0.1,
+ "env_reward_correct": 10.0,
+ "env_reward_fail": 0.0,
+ "env_timing_stimulus": [3018, 3310, 3629, 3979, 4363, 4784],
+ "env_render_mode": "rgb_array"
+}

@@ -1,0 +1,9 @@
+{
+  "wandb_project": "my_project_name",
+  "wandb_entity": "my_entity",
+  "run_ids": {
+    "cogrnn": ["run_id1", "run_id2"],
+    "lstm": ["run_id1", "run_id2"],
+    "rnn": ["run_id1", "run_id2"]
+  }
+}

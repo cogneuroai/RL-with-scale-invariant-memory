@@ -1,0 +1,19 @@
+{
+  "wandb_project": "my_project_name",
+  "wandb_entity": "my_entity",
+  "cores": {
+    "cogrnn": {
+      "run_ids":  ["run_id1", "run_id2"],
+      "versions": ["v1", "v2", "v3"]
+    },
+    "lstm": {
+      "run_ids":  ["run_id1", "run_id2"],
+      "versions": ["v1", "v2", "v3"]
+    },
+    "rnn": {
+      "run_ids":  ["run_id1", "run_id2"],
+      "versions": ["v1", "v2", "v3"]
+    }
+  }
+
+}

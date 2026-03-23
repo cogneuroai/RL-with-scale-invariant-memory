@@ -72,7 +72,7 @@ def parse_argument():
                         help='whether to use alpha modulation for cogrnn')
     parser.add_argument('--cogrnn_F', action='store_true', default=True, help='whether to use F for cogrnn output')
     # attention layer after
-    parser.add_argument('--attention', action='store_true', default=True,
+    parser.add_argument('--attention', action='store_true', default=False,
                         help='whether to use attention on the core output')
     parser.add_argument('--attention_type', type=str, default='scaled_dot_prod',
                         choices=['additive', 'scaled_dot_prod', 'scaled_dot_prod_pos_enc'],
